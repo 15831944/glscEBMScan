@@ -1,0 +1,4 @@
+F:\GlscEBMProject\netDxf\bin\Release\netDxf.xml
+F:\GlscEBMProject\netDxf\bin\Release\netDxf.dll
+F:\GlscEBMProject\netDxf\obj\Release\netDxf.csproj.CoreCompileInputs.cache
+F:\GlscEBMProject\netDxf\obj\Release\netDxf.dll

@@ -1,0 +1,6 @@
+21:18:51 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EBMCtrl2._0.ebmScan.Package.PackageManager.SetOutPackageDone() 位置 F:\GlscEBMProject\BeamScanDll\BeamScan\Package\PackageManager.cs:行号 121
+   在 EBMCtrl2._0.ebmScan.AnalogOutCard.SignalCardThreadExecute() 位置 F:\GlscEBMProject\BeamScanDll\BeamScan\AnalogOutCard.cs:行号 195 
+21:18:58 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EBMCtrl2._0.ebmScan.Package.PackageManager.SetOutPackageDone() 位置 F:\GlscEBMProject\BeamScanDll\BeamScan\Package\PackageManager.cs:行号 121
+   在 EBMCtrl2._0.ebmScan.AnalogOutCard.SignalCardThreadExecute() 位置 F:\GlscEBMProject\BeamScanDll\BeamScan\AnalogOutCard.cs:行号 195 

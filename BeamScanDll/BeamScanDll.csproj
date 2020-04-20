@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91ACA5CE-8692-4D25-986E-63894F94CD6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BeamScanDll</RootNamespace>
+    <AssemblyName>BeamScanDll</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="netDxf">
+      <HintPath>..\dll\netDxf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UeiDaqDNet, Version=2.5.0.34103, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\UeiDaqDNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BeamScanDll.cs" />
+    <Compile Include="BeamScan\AnalogOutCard.cs" />
+    <Compile Include="BeamScan\BeamController.cs" />
+    <Compile Include="BeamScan\BeamScan.cs" />
+    <Compile Include="BeamScan\BeamScanFactory.cs" />
+    <Compile Include="BeamScan\BeamSetup.cs" />
+    <Compile Include="BeamScan\BeamSetupDummySweep.cs" />
+    <Compile Include="BeamScan\BeamState.cs" />
+    <Compile Include="BeamScan\ContentInformation.cs" />
+    <Compile Include="BeamScan\DummySweep.cs" />
+    <Compile Include="BeamScan\IAnalogCard.cs" />
+    <Compile Include="BeamScan\interface\BeamPackageCompleted.cs" />
+    <Compile Include="BeamScan\interface\IBeam.cs" />
+    <Compile Include="BeamScan\interface\IBeamCalibrationAuto.cs" />
+    <Compile Include="BeamScan\interface\IBeamControl.cs" />
+    <Compile Include="BeamScan\interface\IBeamController.cs" />
+    <Compile Include="BeamScan\interface\IBeamControlPackage.cs" />
+    <Compile Include="BeamScan\interface\IBeamScan.cs" />
+    <Compile Include="BeamScan\interface\IBeamSetup.cs" />
+    <Compile Include="BeamScan\interface\IBeamSetupDummySweep.cs" />
+    <Compile Include="BeamScan\interface\IBeamState.cs" />
+    <Compile Include="BeamScan\interface\IBuilds.cs" />
+    <Compile Include="BeamScan\interface\ICoreExtension.cs" />
+    <Compile Include="BeamScan\interface\IOValue.cs" />
+    <Compile Include="BeamScan\interface\IThemesPowerSupplyTheme.cs" />
+    <Compile Include="BeamScan\ISignalCard.cs" />
+    <Compile Include="BeamScan\ISignalCardOut.cs" />
+    <Compile Include="BeamScan\LogHelper.cs" />
+    <Compile Include="BeamScan\Package\BeamControlPackageState.cs" />
+    <Compile Include="BeamScan\Package\ContentInformation.cs" />
+    <Compile Include="BeamScan\Package\PackageEnvelope.cs" />
+    <Compile Include="BeamScan\Package\PackageManager.cs" />
+    <Compile Include="BeamScan\Package\PackageOfficeEvent.cs" />
+    <Compile Include="BeamScan\PowerDaq32AO.cs" />
+    <Compile Include="BeamScan\PreHeat\HalfPreHeatHorizonPackage.cs" />
+    <Compile Include="BeamScan\PreHeat\PreHeatHorizonPackage.cs" />
+    <Compile Include="BeamScan\PreHeat\PreHeatSweep.cs" />
+    <Compile Include="BeamScan\PreHeat\PreHeatVerticalPackage.cs" />
+    <Compile Include="BeamScan\SanXinBeam.cs" />
+    <Compile Include="BeamScan\SanxinBeamState.cs" />
+    <Compile Include="BeamScan\SignalCardModeEnum.cs" />
+    <Compile Include="BeamScan\SignalCardStartArgs.cs" />
+    <Compile Include="CADProcess\DxfcadPackage.cs" />
+    <Compile Include="CADProcess\DxfcadReader.cs" />
+    <Compile Include="FileDataAdapter.cs" />
+    <Compile Include="Glables.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticTools.cs" />
+    <Compile Include="Structs.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

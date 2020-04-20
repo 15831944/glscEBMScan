@@ -1,0 +1,13 @@
+C:\Users\Lamber\Desktop\GlscEBMProject\netDxf\bin\Debug\netDxf.xml
+C:\Users\Lamber\Desktop\GlscEBMProject\netDxf\bin\Debug\netDxf.dll
+C:\Users\Lamber\Desktop\GlscEBMProject\netDxf\bin\Debug\netDxf.pdb
+C:\Users\Lamber\Desktop\GlscEBMProject\netDxf\obj\Debug\netDxf.csprojAssemblyReference.cache
+C:\Users\Lamber\Desktop\GlscEBMProject\netDxf\obj\Debug\netDxf.dll
+C:\Users\Lamber\Desktop\GlscEBMProject\netDxf\obj\Debug\netDxf.pdb
+F:\GlscEBMProject\netDxf\bin\Debug\netDxf.xml
+F:\GlscEBMProject\netDxf\bin\Debug\netDxf.dll
+F:\GlscEBMProject\netDxf\bin\Debug\netDxf.pdb
+F:\GlscEBMProject\netDxf\obj\Debug\netDxf.csproj.CoreCompileInputs.cache
+F:\GlscEBMProject\netDxf\obj\Debug\netDxf.dll
+F:\GlscEBMProject\netDxf\obj\Debug\netDxf.pdb
+F:\GlscEBMProject\netDxf\obj\Debug\netDxf.csprojAssemblyReference.cache

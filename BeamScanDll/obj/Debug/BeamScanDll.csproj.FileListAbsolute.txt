@@ -1,0 +1,10 @@
+F:\GlscEBMProject\BeamScanDll\bin\Debug\BeamScanDll.dll
+F:\GlscEBMProject\BeamScanDll\bin\Debug\BeamScanDll.pdb
+F:\GlscEBMProject\BeamScanDll\bin\Debug\log4net.dll
+F:\GlscEBMProject\BeamScanDll\bin\Debug\netDxf.dll
+F:\GlscEBMProject\BeamScanDll\bin\Debug\UeiDaqDNet.dll
+F:\GlscEBMProject\BeamScanDll\obj\Debug\BeamScanDll.csproj.CoreCompileInputs.cache
+F:\GlscEBMProject\BeamScanDll\obj\Debug\BeamScanDll.csproj.CopyComplete
+F:\GlscEBMProject\BeamScanDll\obj\Debug\BeamScanDll.dll
+F:\GlscEBMProject\BeamScanDll\obj\Debug\BeamScanDll.pdb
+F:\GlscEBMProject\BeamScanDll\obj\Debug\BeamScanDll.csprojAssemblyReference.cache
